@@ -2,4 +2,4 @@
 ## ***MAYBE* ORIGINAL BY THENOPPY12**
 * **this *maybe* the first public windowsVM on github?**
 
-**Status: update soon**
+**VM Status: update soon**
