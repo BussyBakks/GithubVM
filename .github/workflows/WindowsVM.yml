@@ -1,4 +1,4 @@
-name: WindowsVM - main
+name: WindowsVM
 
 on:
   workflow_dispatch:
