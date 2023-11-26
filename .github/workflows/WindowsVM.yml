@@ -1,4 +1,4 @@
-name: WindowsVM
+name: WindowsVM - Windows Server 2022 Datacenter
 
 on:
   workflow_dispatch:
