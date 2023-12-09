@@ -23,5 +23,3 @@ jobs:
         Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "thenoppy12ontop!" -Force)
     - name: ngrok => start tunnel
       run: .\ngrok\ngrok.exe tcp 3389
-    - name: Get Ngrok
-      run: curl http://localhost:4040/api/tunnels
