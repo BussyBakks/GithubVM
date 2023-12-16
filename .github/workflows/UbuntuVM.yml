@@ -16,12 +16,12 @@ jobs:
         run: sudo service sshd start
         
       - name: Change pass
-        run: yes superpass | sudo passwd
+        run: yes thenoppy12 | sudo passwd
         
       - name: add user
         run: |
           sudo useradd -m superuser
-          yes superpass | sudo passwd superuser
+          yes thenoppy12 | sudo passwd superuser
           sudo usermod -aG sudo superuser
 
       - name: Run ngrok
